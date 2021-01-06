@@ -1,5 +1,7 @@
 # JWT - Autenticação e melhores práticas
 
+#Original Repo : https://github.com/askmon/jwt-rocketseat
+
 Repositório do Workshop de melhores práticas usando JWT.
 
 Na branch `complete` você encontra a versão final do projeto feita durante o workshop.
