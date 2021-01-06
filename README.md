@@ -43,6 +43,8 @@ openssl genrsa -out private-key.pem 2048
 openssl rsa -in private-key.pem -pubout -out public-key.pem
 ```
 SECRET MANEGER 
+refresh token - 7dias
+providers de auth /firebaseauth, Auth0, aws, login com social/
 
 Caso queira usar chaves previamente geradas, copie o arquivo `.env.example` para o arquivo `.env`. Mas lembre-se: **Não** use essas chaves em produção, **apenas** para teste.
 
