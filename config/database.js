@@ -1,6 +1,8 @@
+const path = require('path');
+
 module.exports = {
   // For the sake of the example only, please use env vars
-  storage: '/db/db/database.sqlite',
+  storage: path.join(__dirname,'../db/db/database.sqlite'),
   dialect: 'sqlite',
   dialectOptions: {
     ssl: false,

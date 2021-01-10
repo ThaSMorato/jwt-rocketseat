@@ -1,3 +1,7 @@
+
+require('dotenv/config');
+
+
 module.exports = {
   hashSaltRounds: 10,
   jwt: {
